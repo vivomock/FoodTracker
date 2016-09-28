@@ -32,6 +32,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        mealNameLabel.text = textField.text
+    }
+    
     // MARK: Actions
 
     @IBAction func setDefaultLabelText(sender: UIButton) {
