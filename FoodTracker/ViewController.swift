@@ -24,8 +24,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     }
 
-// testing commit from Air
-
     // MARK: UITextFieldDelegate
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         // Hide the keyboard.
